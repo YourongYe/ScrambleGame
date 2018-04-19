@@ -3,8 +3,6 @@ import sys
 MARK = '#'
 
 def traverse(board,dictionary,x,y,word):
-
-    
   if x<0 or y<0 or x>=len(board) or y>=len(board[0]):
     return
   
