@@ -20,6 +20,9 @@ class TrieTree:
       t.insert(word,index+1)
     
   def search(self,word,index=0):
+    if index>len(word)-1:
+      return False
+    
     cur_char = word[index]
 
     if cur_char not in self.m_char_map:
