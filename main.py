@@ -20,12 +20,12 @@ def traverse(board,dict,x,y,word):
   traverse(board,dict,x,y-1,word)
   board[x][y] = origin
 
-puzzle_board = [['r','l','d','y'],
-               ['o','a','r','a'],
-               ['w','h','e','l'],
-               ['o','g','o','l']]
+puzzle_board = [['h','e','i','a'],
+               ['o','l','y','m'],
+               ['w','l','o','u'],
+               ['g','n','o','r']]
 
-dict = {"hello","world","yara","roar","woa","are"}     
+dict = {"hello","i","am","yourong"}     
 
 if puzzle_board == None:
   print("Empty board!")
