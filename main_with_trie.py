@@ -62,7 +62,7 @@ puzzle_board = [['r','l','d','y'],
                ['w','h','e','l'],
                ['o','g','o','l']]
 
-puzzle_dict = {"hello","world","yara","roar","woa","are"}
+puzzle_dict = {"hello","world","yara"}
 trie_tree = TrieTree()
 for w in puzzle_dict:
   trie_tree.insert(w)
